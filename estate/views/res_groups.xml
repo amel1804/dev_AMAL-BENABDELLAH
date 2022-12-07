@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-        
+      <record id="xxx" model="res.groups">
+            <xpath expr="//field[@name='share']" position="after">
+            <field name="amount_max" string="Training Max Price (Approval)"/>
+            </xpath>
+        </field>
+        </record>
     </data>
 </odoo>
