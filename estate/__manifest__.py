@@ -10,3 +10,4 @@
     'depends': ['base', 'sale_management', 'calendar', 'hr'],
     'data':  ["views/res_groups.xml","views/res_partner.xml", "views/sale_order.xml"]
 }
+6
